@@ -37,7 +37,7 @@ namespace Calculating_cubes_and_that
             {
                 double n1 = double.Parse(box3.Text);
                 double n2 = double.Parse(box4.Text);
-                double ans = Math.Pow(n1, n2);
+                double ans = Math.Pow(n1, 1.0 / n2);
                 box5.Text = ans.ToString();
             }
             catch
